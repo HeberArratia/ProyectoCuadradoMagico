@@ -279,6 +279,7 @@ public class VistaCM extends javax.swing.JFrame {
             comprobar.setEnabled(true);
         } else {
          // De lo contrario el boton de bloquea    
+              this.mensajes.setText("Ingrese datos");
              comprobar.setEnabled(false);
         }      
     }//GEN-LAST:event_po00KeyReleased
@@ -288,6 +289,7 @@ public class VistaCM extends javax.swing.JFrame {
         if (cm.comprobarExistenciaDatos()){
             comprobar.setEnabled(true);
         }  else {
+            this.mensajes.setText("Ingrese datos");
              comprobar.setEnabled(false);
         }     
     }//GEN-LAST:event_po02KeyReleased
@@ -301,6 +303,7 @@ public class VistaCM extends javax.swing.JFrame {
         if (cm.comprobarExistenciaDatos()){
             comprobar.setEnabled(true);
         } else {
+            this.mensajes.setText("Ingrese datos");
              comprobar.setEnabled(false);
         }     
     }//GEN-LAST:event_po01KeyReleased
@@ -310,6 +313,7 @@ public class VistaCM extends javax.swing.JFrame {
         if (cm.comprobarExistenciaDatos()){
             comprobar.setEnabled(true);
         }  else {
+            this.mensajes.setText("Ingrese datos");
              comprobar.setEnabled(false);
         }     
     }//GEN-LAST:event_po12KeyReleased
@@ -319,6 +323,7 @@ public class VistaCM extends javax.swing.JFrame {
          if (cm.comprobarExistenciaDatos()){
             comprobar.setEnabled(true);
         }  else {
+             this.mensajes.setText("Ingrese datos");
              comprobar.setEnabled(false);
         }     
     }//GEN-LAST:event_po11KeyReleased
@@ -328,6 +333,7 @@ public class VistaCM extends javax.swing.JFrame {
         if (cm.comprobarExistenciaDatos()){
             comprobar.setEnabled(true);
         }  else {
+            this.mensajes.setText("Ingrese datos");
              comprobar.setEnabled(false);
         }     
     }//GEN-LAST:event_po10KeyReleased
@@ -349,6 +355,7 @@ public class VistaCM extends javax.swing.JFrame {
         if (cm.comprobarExistenciaDatos()){
             comprobar.setEnabled(true);
         }  else {
+            this.mensajes.setText("Ingrese datos");
              comprobar.setEnabled(false);
         }     
     }//GEN-LAST:event_po22KeyReleased
@@ -358,6 +365,7 @@ public class VistaCM extends javax.swing.JFrame {
          if (cm.comprobarExistenciaDatos()){
             comprobar.setEnabled(true);
         }  else {
+             this.mensajes.setText("Ingrese datos");
              comprobar.setEnabled(false);
         }     
     }//GEN-LAST:event_po21KeyReleased
@@ -367,6 +375,7 @@ public class VistaCM extends javax.swing.JFrame {
        if (cm.comprobarExistenciaDatos()){
             comprobar.setEnabled(true);
         }  else {
+           this.mensajes.setText("Ingrese datos");
              comprobar.setEnabled(false);
         }     
     }//GEN-LAST:event_po20KeyReleased
