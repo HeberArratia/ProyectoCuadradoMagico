@@ -118,7 +118,6 @@ lo asigna a la matriz */
             comprobar = false;
             
         }      
-        //System.out.println(">>> " + imprimirArrayList());
         return comprobar;
     }
     
@@ -241,6 +240,6 @@ lo asigna a la matriz */
                 this.casillas[i][j]=0;
             }
         }
-    }
+    }    
 }
 
