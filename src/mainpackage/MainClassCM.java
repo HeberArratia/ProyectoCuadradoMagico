@@ -2,7 +2,7 @@ package mainpackage;
 
 //@author Heber
 // Se omitieron tildes para evitar errores de lenguaje
-
+//Clase principal
 public class MainClassCM {
 
     public static void main(String[] args) {
